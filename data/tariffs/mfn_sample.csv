@@ -1,0 +1,4 @@
+hsn,country,duty_type,rate_note
+7318,US,MFN,Standard MFN duty applies
+8501,IN,MFN,Standard BCD + IGST applies
+8714,EU,MFN,EU Common External Tariff applies
