@@ -29,3 +29,23 @@ treatment under the FTA and identify required actions.
 - Do not assume eligibility without origin details.
 - Do not invent tariff rates.
 - Ask for clarification if inputs are incomplete.
+
+
+---
+
+## Sample Test Case
+
+### Input
+- Product classification (HSN): 6109
+- Export country: India
+- Import country: Germany
+- Origin details: Manufactured in India with Indian-origin fabric
+- Declared value: EUR 40,000
+
+### Expected Output
+- FTA eligible: yes
+- Reason: Product meets FTA eligibility and rules of origin.
+- Applicable tariff treatment: Preferential tariff under India–EU FTA
+- Required documentation: Certificate of Origin
+- Compliance risk: low
+
