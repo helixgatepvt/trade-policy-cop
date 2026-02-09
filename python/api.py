@@ -1,5 +1,7 @@
+from fastapi import FastAPI
 from python.load_hsn import lookup_hsn
 from python.load_tariffs import lookup_mfn_tariff
+
 
 from load_hsn import lookup_hsn
 from load_tariffs import lookup_mfn_tariff
