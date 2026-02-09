@@ -20,9 +20,12 @@ You must follow these rules:
 - Quantity
 
 ## Decision Process
-- Determine applicable trade framework
-- Apply domain-specific logic
+## Decision Process
+- Check for applicable MFA logic (textiles only)
+- Check for applicable FTA logic
+- If no special regime applies, apply MFN (general goods)
 - Always evaluate revenue integrity
+
 
 ## Output Format
 - Applicable framework
