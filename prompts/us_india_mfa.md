@@ -28,3 +28,21 @@ and identify compliance actions.
 - Do not assume coverage if product category is unclear.
 - If information is missing, ask for clarification.
 - Do not invent quotas or limits.
+
+
+---
+
+## Sample Test Case
+
+### Input
+- Product category: Cotton garments
+- Export country: India
+- Import country: United States
+- Quantity: 5,000 units
+- Declared value: USD 75,000
+
+### Expected Output
+- MFA applicable: yes
+- Reason: Cotton garments fall under MFA-controlled categories for US–India trade.
+- Required actions: Verify quota availability and obtain necessary export documentation.
+- Compliance risk: medium
