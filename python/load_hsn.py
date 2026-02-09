@@ -11,6 +11,10 @@ def load_hsn():
             records[row["hsn"]] = row
     return records
 
-if __name__ == "__main__":
+def lookup_hsn(hsn_code: str):
     hsn_data = load_hsn()
-    print(hsn_data.get("7318"))
+    return hsn_data.get(hsn_code)
+
+if __name__ == "__main__":
+    result = lookup_hsn("8501")
+    print(result)
