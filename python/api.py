@@ -2,10 +2,6 @@ from fastapi import FastAPI
 from python.load_hsn import lookup_hsn
 from python.load_tariffs import lookup_mfn_tariff
 
-
-from load_hsn import lookup_hsn
-from load_tariffs import lookup_mfn_tariff
-
 TEXTILE_CHAPTERS = {"50","51","52","53","54","55","56","57","58","59","60","61","62","63"}
 
 app = FastAPI(title="Trade Policy COP API")
